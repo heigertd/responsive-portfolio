@@ -1,0 +1,12 @@
+.fixed{
+    position: fixed;
+}
+
+.overflow{
+    overflow: scroll;
+    height: 75vh
+}
+
+.container{
+    height:100vh;
+}
