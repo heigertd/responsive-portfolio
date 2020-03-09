@@ -1,3 +1,16 @@
+body{
+    background: rgb(226, 224, 224);
+}
+
+.grey{
+ background: rgb(226, 224, 224);
+}
+
+.light-grey{
+    background: rgb(184, 182, 182);
+    padding: 10px 0;
+}
+
 .overflow{
     overflow: scroll;
     height: 75vh
