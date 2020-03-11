@@ -20,13 +20,67 @@ body{
   padding-left: 20px;
 }
 
+.a1{
+  color: beige;
+}
+
+a.a1:link
+{
+   color:beige;
+   text-decoration: none;
+}
+a.a1:visited
+{
+   color: beige;
+   text-decoration: none;
+}
+a.a1:hover
+{
+   color: beige;
+   text-decoration: none;
+}
+a.a1:active
+{
+   color: beige;
+   text-decoration: none;
+}
+
 .text-center{
     text-align: center;
 }
 
-.card:hover{
-    box-shadow: 0 5px 15px #000000;
+.card1{
+  opacity: 0.2;
+  text-align: center;
 }
+
+.card1:hover{
+  opacity: 1;
+  box-shadow: 0 0px 15px #fdfafa;
+  transition-duration: 0.5s;
+  box-shadow: 0 5px 15px #000000;
+}
+
+
+.background1, .background2{
+  height: 50vh;
+  margin:0;
+}
+
+.background1{
+  background-image: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
+  background-position: center;
+  background-size: cover;
+}
+
+.background2{
+  background-image: url(https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
 
 /* width */
 ::-webkit-scrollbar {
