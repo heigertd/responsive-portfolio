@@ -97,7 +97,9 @@ a.a1:active
 
 
 .portfolio-section{
-  padding: 15px
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-section{
